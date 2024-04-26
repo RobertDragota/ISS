@@ -1,0 +1,26 @@
+.button {
+    -fx-background-color: linear-gradient(#0f0f0f,  #88dd5a), linear-gradient( #88dd5a, #91e03c);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 20, 20;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: #7de22b;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(83, 226, 43, 0.8), 10, 0.5, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#0f0f0f, #333333), linear-gradient(#47ce37, #b8dc6f);
+}
+
+.rounded-textfield {
+    -fx-background-color: #ecf0f1; /* Culoarea fundalului */
+    -fx-background-radius: 8px;;
+    -fx-padding: 8px; /* Spatiu în jurul textului */
+    -fx-border-radius: 8px; /* Radius pentru colțuri rotunjite */
+    -fx-border-width: 2px;
+    -fx-border-color: #7b807c;
+}
