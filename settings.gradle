@@ -1,0 +1,6 @@
+rootProject.name = 'Bug_Detection'
+include 'ClientFX'
+include 'AppPersistance'
+include 'AppDomain'
+include 'AppServices'
+

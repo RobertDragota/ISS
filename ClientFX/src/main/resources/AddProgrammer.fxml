@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="317.0" prefWidth="295.0" style="-fx-background-color: #404040;" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="org.mpp2024.Controllers.AddProgrammerController">
+   <children>
+      <TextField fx:id="ProgrammerName" layoutX="67.0" layoutY="76.0" promptText="Name" styleClass="rounded-textfield" stylesheets="@AdminTerminal.css" />
+      <TextField fx:id="ProgrammerPassword" layoutX="67.0" layoutY="146.0" promptText="Password" styleClass="rounded-textfield" stylesheets="@AdminTerminal.css" />
+      <Button fx:id="AddProgrammerButton" layoutX="63.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleAddProgrammer" stylesheets="@AdminTerminal.css" text="Add Programmer" />
+   </children>
+</AnchorPane>
